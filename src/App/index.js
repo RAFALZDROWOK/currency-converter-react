@@ -19,7 +19,10 @@ function App() {
 
     return (
         <div className="app">
-            
+            <Form>
+                result={result}
+                calculateResult={calculateResult}
+            </Form>
         </div>
     );
 }
