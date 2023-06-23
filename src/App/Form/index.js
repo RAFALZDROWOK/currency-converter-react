@@ -1,6 +1,7 @@
 import { useState } from "react"
 import { currencies } from "../currencies"
 import './style.css';
+import { Result } from "./Result";
 
 export const Form = ({ calculateResult, result }) => {
     const [currency, setCurrency] = useState(currencies[0].short);
@@ -52,7 +53,7 @@ export const Form = ({ calculateResult, result }) => {
             </p>
             <p className="info">Kursy pochodzą ze strony https://mybank.pl/kursy-walut/kupno-sprzedaz/ z tabeli C z dnia
                 2023-01-16</p>
-           
+           <Result result={result} />
         </form>
     );
 };
