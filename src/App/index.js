@@ -16,7 +16,7 @@ function App() {
             targetAmount: amount / rate,
             currency,
         });
-    }
+    };
 
     return (
         <div className="app">

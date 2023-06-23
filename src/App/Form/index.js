@@ -51,9 +51,12 @@ export const Form = ({ calculateResult, result }) => {
             <p>
                 <button className="button">Przelicz!</button>
             </p>
-            <p className="info">Kursy pochodzą ze strony https://mybank.pl/kursy-walut/kupno-sprzedaz/ z tabeli C z dnia
-                2023-01-16</p>
-           <Result result={result} />
+            <p className="info">
+                Kursy pochodzą ze strony https://mybank.pl/kursy-walut/kupno-sprzedaz/ z tabeli C z dnia
+                2023-01-16
+            </p>
+
+            <Result result={result} />
         </form>
     );
 };
