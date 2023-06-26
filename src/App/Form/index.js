@@ -9,7 +9,7 @@ export const Form = ({ calculateResult, result }) => {
 
     const onSubmit = (event) => {
         event.preventDefault();
-        calculateResult (currency, amount);
+        calculateResult(currency, amount);
     }
 
     return (
@@ -26,7 +26,8 @@ export const Form = ({ calculateResult, result }) => {
                         type="number"
                         placeholder="Wpisz kwotę w zł"
                         required min="1"
-                        step="0.01" />
+                        step="0.01" 
+                    />
                 </label>
             </p>
             <p>
