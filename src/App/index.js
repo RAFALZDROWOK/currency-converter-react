@@ -21,10 +21,10 @@ function App() {
 
     return (
         <div className="app">
-            <Form>
-                result={result}
-                calculateResult={calculateResult}
-            </Form>
+            <Form 
+            result={result} 
+            calculateResult={calculateResult}  
+            />
         </div>
     );
 }
