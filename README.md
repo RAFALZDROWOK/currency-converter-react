@@ -1,5 +1,5 @@
 # Rafał Zdrowok - Currency Converter - as part of the YouCode course
-
+![my Currency Converter](https://github.com/RAFALZDROWOK/currency-converter-react/blob/master/public/Currency%20converter.png?raw=true)
 ## Demo
 https://rafalzdrowok.github.io/currency-converter-react/
 ## Description:
