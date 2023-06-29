@@ -1,7 +1,7 @@
 # Rafał Zdrowok - Currency Converter - as part of the YouCode course
 
 ## Demo
-
+https://rafalzdrowok.github.io/currency-converter-react/
 ## Description:
 The purpose of creating the "currency-converter-react" was:
 - getting practice in REACT.JS
