@@ -64,3 +64,6 @@ Grid✔
 Media queries✔
 Immutability✔
 Arrays✔
+UseState✔ 
+UseEffect✔ 
+New Date✔
