@@ -1,5 +1,5 @@
 .app {
-    margin: 20px;
+    margin: 10px;
     padding: 0 30px;
     resize: both;
     overflow: auto;
@@ -7,7 +7,7 @@
     background-position: center;
     background-size: cover;
     flex-basis: 620px;
-    min-height: 48vh;
+    min-height: 54vh;
     border-radius: 20px;
     border: 1px solid rgb(137, 126, 126);
 }
