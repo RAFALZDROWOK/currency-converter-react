@@ -64,6 +64,6 @@ Grid✔
 Media queries✔
 Immutability✔
 Arrays✔
-UseState
-UseEffect
-New Data()
+UseState✔
+UseEffect✔
+New Data()✔
