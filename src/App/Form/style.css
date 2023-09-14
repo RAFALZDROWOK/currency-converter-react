@@ -1,15 +1,17 @@
 .form {
-    min-height: 51vh;
+    min-height: 50vh;
 }
 
 .info {
     font-size: small;
     color: gray;
+    margin-bottom: 2px;
 }
 
 .header {
     text-align: center;
     margin: 12px auto;
+    font-size: 28px;
 }
 
 .labelText {
