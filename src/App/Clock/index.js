@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { useEffect } from 'react';
+import './style.css';
 
 export const Clock = () => {
     const [date, setDate] = useState(new Date());
@@ -15,7 +16,7 @@ export const Clock = () => {
     }, []);
 
     return (
-        <div>
+        <div className='clock'>
             Dzisiaj jest
             {" "}
             {new Date().toLocaleDateString(undefined, {
