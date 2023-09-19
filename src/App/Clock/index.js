@@ -26,7 +26,7 @@ export const Clock = () => {
                 second: "2-digit",
                 day: "numeric",
                 month: "long",
-            })};
+            })}
         </div>
     );
 }
