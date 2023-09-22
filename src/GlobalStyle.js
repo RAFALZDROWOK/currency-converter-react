@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import currency from "./currency.jpg";
+import background from "./background.jpg";
 
 export const GlobalStyle = createGlobalStyle`
     html {
@@ -22,7 +22,7 @@ export const GlobalStyle = createGlobalStyle`
     min-height: 100vh;
     resize: both;
     overflow: auto;
-    background-image: url("${currency}");
+    background-image: url("${background}");
     background-size: cover;
     background-position: center;
     }
