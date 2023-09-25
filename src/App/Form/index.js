@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { currencies } from "../currencies"
-import './style.css';
 import { Result } from "./Result";
+import { Button, Field, Header, LabelText, Info, Select } from "./styled.js";
 
 export const Form = ({ calculateResult, result }) => {
     const [currency, setCurrency] = useState(currencies[0].short);
@@ -13,16 +13,15 @@ export const Form = ({ calculateResult, result }) => {
     }
 
     return (
-        <form className="form" onSubmit={onSubmit}>
-            <h1 className="header">Przelicznik Walut</h1>
+        <form onSubmit={onSubmit}>
+            <Header>Przelicznik Walut</Header>
             <p className="info">Pola oznaczone * są wymagane </p>
             <p>
                 <label>
-                    <span className="labelText"> Kwota w zł:*</span>
-                    <input
+                    <LabelText> Kwota w zł:*</LabelText>
+                    <Field
                         value={amount}
                         onChange={({ target }) => setAmount(target.value)}
-                        className="label__field"
                         type="number"
                         placeholder="Wpisz kwotę w zł"
                         required min="1"
@@ -32,9 +31,8 @@ export const Form = ({ calculateResult, result }) => {
             </p>
             <p>
                 <label>
-                    <span className="labelText"> Waluta:*</span>
-                    <select
-                        className="select"
+                    <LabelText> Waluta:*</LabelText>
+                    <Select
                         value={currency}
                         onChange={({ target }) => setCurrency(target.value)}
                     >
@@ -46,16 +44,16 @@ export const Form = ({ calculateResult, result }) => {
                                 {currency.name}
                             </option>
                         )))}
-                    </select>
+                    </Select>
                 </label>
             </p>
             <p>
-                <button className="button">Przelicz!</button>
+                <Button>Przelicz!</Button>
             </p>
-            <p className="info">
+            <Info>
                 Kursy pochodzą ze strony https://mybank.pl/kursy-walut/kupno-sprzedaz/ z tabeli C z dnia
                 2023-01-16
-            </p>
+            </Info>
 
             <Result result={result} />
         </form>
