@@ -11,8 +11,9 @@ The purpose of creating the "currency-converter-react" was:
 - entering the date and time in real time via the new Date() object
 - using styled-components instead of the previously used CSS
 - introduction of GlobalStyle
+- introduction of ThemeProvider
 - use of new technologies such as:
-React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ New Date()✔ Styled-components✔ GlobalStyle✔
+React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ New Date()✔ Styled-components✔ GlobalStyle✔ ThemeProvider✔ 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -72,3 +73,4 @@ UseEffect✔
 New Date()✔
 Styled-components✔ 
 GlobalStyle✔
+ThemeProvider✔ 
