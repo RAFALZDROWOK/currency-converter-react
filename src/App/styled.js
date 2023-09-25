@@ -12,5 +12,5 @@ export const Wrapper = styled.div`
     flex-basis: 640px;
     min-height: 48vh;
     border-radius: 20px;
-    border: 1px solid rgb(137, 126, 126);
+    border: 1px solid ${({ theme }) => theme.color.hurricane};
 `;

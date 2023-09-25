@@ -3,8 +3,8 @@ import styled from "styled-components";
 export const Button = styled.button`
    width: 100%;
     background: teal;
-    color: white;
-    border: 1px solid teal;
+    color: ${({ theme }) => theme.color.white};
+    border: 1px solid ${({ theme }) => theme.color.teal};
     border-radius: 5px;
     padding: 7px;
     font-size: 16px;
@@ -21,7 +21,7 @@ export const Field = styled.input`
  max-width: 350px;
     width: 100%;
     padding: 8px;
-    border: 1px solid grey;
+    border: 1px solid ${({ theme }) => theme.color.gray};
     border-radius: 5px;
 `;
 
@@ -40,7 +40,7 @@ export const LabelText = styled.span`
 
 export const Info = styled.p`
     font-size: small;
-    color: gray;
+    color: ${({ theme }) => theme.color.gray};
     margin-bottom: 2px;
 `;
 
@@ -48,7 +48,7 @@ export const Select = styled.select`
  max-width: 350px;
     width: 100%;
     padding: 8px;
-    border: 1px solid grey;
+    border: 1px solid ${({ theme }) => theme.color.gray};
     border-radius: 5px;
 `;
 
