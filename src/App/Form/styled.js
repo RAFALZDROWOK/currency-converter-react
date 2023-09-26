@@ -10,10 +10,10 @@ export const Button = styled.button`
     font-size: 16px;
 
     &:hover {
-    background: hsl(180, 100%, 30%);
+        filter: brightness(110%);
     }
     &:active {
-    background: hsl(180, 100%, 35%);
+        filter: brightness(120%);
     }
 `;
 
