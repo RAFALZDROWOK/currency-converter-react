@@ -8,10 +8,12 @@ The purpose of creating the "currency-converter-react" was:
 - writing the code in REACT.JS, which I wrote earlier in pure JS
 - gaining practice in CSS implementation in REACT.JS
 - introducing the version to the deployment
-- entering the date and time in real time via the new Date() object
-- using styled-components instead of the previously used CSS
-- introduction of GlobalStyle
-- introduction of ThemeProvider
+- introduction of UseState Hook - UseState allows me to enter and update values from input and select, to my "result" function
+- introduction of UseEffect Hook - UseEffect allows me enter and update current date and time
+- entering the date and time in real time via the New Date() object
+- using Styled-components instead of the previously used CSS
+- introduction of GlobalStyle - GlobalStyle allows me to apply master styles that apply to the entire application
+- introduction of ThemeProvider - ThemeProvider allows me to introduce and modify selected styles in all React components from one "theme" object
 - use of new technologies such as:
 React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ New Date()✔ Styled-components✔ GlobalStyle✔ ThemeProvider✔ 
 
