@@ -14,8 +14,9 @@ The purpose of creating the "currency-converter-react" was:
 - using Styled-components instead of the previously used CSS
 - introduction of GlobalStyle - GlobalStyle allows me to apply master styles that apply to the entire application
 - introduction of ThemeProvider - ThemeProvider allows me to introduce and modify selected styles in all React components from one "theme" object
+- creating and implementing a Custom Hook in order to organize/reduce the amount of code in App.js - creating your own Hook in an additional file useCurrentDate.js
 - use of new technologies such as:
-React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ New Date()✔ Styled-components✔ GlobalStyle✔ ThemeProvider✔ 
+React✔ ReactDOM✔ Webpack✔ Babel✔ ESLint✔ Jest✔ PostCSS✔ HTML✔ CSS✔ JavaScript✔ ES6+✔ BEM✔ GIT✔ Flex✔ Grid✔ Media queries✔ Immutability✔ Arrays✔ UseState✔ UseEffect✔ New Date()✔ Styled-components✔ GlobalStyle✔ ThemeProvider✔ Custom Hook✔
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -76,3 +77,4 @@ New Date()✔
 Styled-components✔ 
 GlobalStyle✔
 ThemeProvider✔ 
+Custom Hook✔
